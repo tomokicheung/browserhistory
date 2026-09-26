@@ -1,0 +1,31 @@
+/* E31: styles for the browser history page, moved out of index.html */
+
+/* page-wide text: Open Sans, dark blue on ivory */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: DarkBlue;
+  background-color: Ivory;
+  margin: 10px 50px; /* top and bottom 10px, left and right 50px */
+}
+
+/* every heading level uses Oswald */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* keep each section heading below the previous section's floated logo */
+h2 {
+  clear: both;
+}
+
+/* logos sit at the left edge with the paragraph text wrapping beside them */
+.logo {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
